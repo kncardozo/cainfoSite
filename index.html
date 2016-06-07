@@ -25,7 +25,7 @@
 
     <!-- navbar menu -->
     <header>
-        <nav class="navbar-default" role="navigation">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header col-sm-3">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -34,7 +34,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="#home"><img src="img/cainfo-logo.png" width="150"></a>
+                    <a class="navbar-brand" href="#home"><img alt="Cainfo" src="img/cainfo-logo.png" width="150"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
@@ -98,7 +98,7 @@
     <div class="content-section-a">
         <div class="container">
             <div class="col-md-8">
-                <div class="container text-center">
+                <div class="container text-center" id="diretorias">
                     <h2>Diretorias</h2>
                     <p class="lead">Nós somos compostos por cinco diretorias</p>
                 </div>
@@ -133,7 +133,7 @@
     <!-- infoprovas -->
     <div class="content-section-b">
         <div class="container text-center">
-            <div class="container">
+            <div class="container" id="infoprovas">
                 <h2>Portal InfoPovas</h2>
                 <p class="lead">Suas provas online.</p>
                 <div class="col-md-6">
@@ -143,7 +143,7 @@
                     <p class="lead">O InfoProvas é um repositório colaborativo de provas do curso de Ciência da Computação.
                         <br>Nele você encontra as provas das disciplinas que você precisa, na hora em que precisa.</p>
                 </div>
-                <a href="http://cainfo.dcc.ufrj.br/infoprovas/" class="btn bnt-embossed bnt-primary" role="button">Acesse agora</a>
+                <a target="_blank" href="http://cainfo.dcc.ufrj.br/infoprovas/" class="btn bnt-embossed bnt-primary" role="button">Acesse agora</a>
             </div>
         </div>
     </div>
@@ -151,15 +151,15 @@
     <!-- produtos -->
     <div class="content-section-c">
         <div class="container text-center">
-            <div class="container">
-                <h2>Produtos</h2>
-                <p class="lead">Qual mais combina com você?</p>
+            <div class="container" id="produtos">
+                <h2 class="shadow-text">Produtos</h2>
+                <p class="lead shadow-text">Qual mais combina com você?</p>
             </div>
 
             <div class="container">
                 <div class="col-md-6">
                     <img src="img/slide/camis.png" class="image" style="width: 200px; height: 200px;">
-                    <p class="lead">Camisa do curso</p>
+                    <p class="lead ">Camisa do curso</p>
                 </div>
 
                 <div class="col-md-6">
@@ -184,7 +184,7 @@
     <!-- midia social -->
     <div class="content-section-b">
         <div class="container">
-            <div class="container text-center">
+            <div class="container text-center" id="social">
                 <h2>Atualizado</h2>
                 <div class="col-md-6">
                     <img class="demo-images" src="img\icon\arrows.svg" alt="Owl Image" style="width: 100px; height: 100px;">
@@ -196,9 +196,9 @@
             </div>
             <div class="container text-center">
                 <ul class="list-inline intro-social-buttons">
-                    <li><a href="https://telegram.me/cainfoufrj" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Canal no Telegram</span></a>
+                    <li><a target="_blank" href="https://telegram.me/cainfoufrj" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Canal no Telegram</span></a>
                     </li>
-                    <li><a href="https://www.facebook.com/cainfoufrj/" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Página do Facebook</span></a>
+                    <li><a target="_blank" href="https://www.facebook.com/cainfoufrj/" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Página do Facebook</span></a>
                     </li>
                 </ul>
             </div>
@@ -210,11 +210,11 @@
 
     <!-- onde estamos -->
     <div class="content-section-a">
-        <div class="container text-center">
+        <div class="container text-center" id="ondeestamos">
             <div class="col-md-6">
                 <address>
                     <h3>Onde estamos?</h3>
-                    <p class="lead"><a href="https://www.google.com.br/maps/place/Centro+Acad%C3%AAmico+da+Inform%C3%A1tica+-+CAInfo+-+UFRJ/@-22.85758,-43.2349687,17z/data=!3m1!4b1!4m5!3m4!1s0x99793876220c97:0x6f89bcaa9e5970f4!8m2!3d-22.85758!4d-43.23278">
+                    <p class="lead"><a target="_blank" href="https://www.google.com.br/maps/place/Centro+Acad%C3%AAmico+da+Inform%C3%A1tica+-+CAInfo+-+UFRJ/@-22.85758,-43.2349687,17z/data=!3m1!4b1!4m5!3m4!1s0x99793876220c97:0x6f89bcaa9e5970f4!8m2!3d-22.85758!4d-43.23278">
                         Av. Athos da Silveira Ramos, 274 <br>
                         Cidade Universitária <br>
                         Rio de Janeiro - RJ
@@ -226,27 +226,27 @@
                 <h3>Siga nossos diretores</h3>
                 <li class="social">
                     <div>
-                        <a href="https://www.facebook.com/CamilaCF2112?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13173774_1206240476055590_409130041440299818_n.jpg?oh=cb8b99357c004ca5d3e05bc236e342e2&oe=57A43FDF" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/MarioBonicenha?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/11811335_912123725546388_3584817662125418588_n.jpg?oh=00d1b7acd37edf1fab0ed9604cb0daf2&oe=57B2A04A&__gda__=1474150780_3ebe09c5d4de54ecbe91a17ca5af4550" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/kncardozo?fref=ts"><img  class="rotate img-circle" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10403183_1165018756849519_939155873831093047_n.jpg?oh=0b6da9aec1a3452f89f791e59264982d&oe=58057A5B" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/joaovirgilio.castroavancini?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/11060326_643866129090899_10872237639845750_n.jpg?oh=6587c155c33d42a6419a0d7ab0c4070e&oe=57A2B8CF&__gda__=1474546765_7e8689986333757429df21de585d0d28" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/kathleen.santana.7?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/13096325_1018317951585695_4734072014451470227_n.jpg?oh=12b676b4c093ecf65a02f81435d2d7b8&oe=57ABB1BB&__gda__=1470067212_686a4db04e33da1408c41f458df1ae93" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/CamilaCF2112?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13173774_1206240476055590_409130041440299818_n.jpg?oh=cb8b99357c004ca5d3e05bc236e342e2&oe=57A43FDF" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/MarioBonicenha?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/11811335_912123725546388_3584817662125418588_n.jpg?oh=00d1b7acd37edf1fab0ed9604cb0daf2&oe=57B2A04A&__gda__=1474150780_3ebe09c5d4de54ecbe91a17ca5af4550" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/kncardozo?fref=ts"><img  class="rotate img-circle" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10403183_1165018756849519_939155873831093047_n.jpg?oh=0b6da9aec1a3452f89f791e59264982d&oe=58057A5B" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/joaovirgilio.castroavancini?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/11060326_643866129090899_10872237639845750_n.jpg?oh=6587c155c33d42a6419a0d7ab0c4070e&oe=57A2B8CF&__gda__=1474546765_7e8689986333757429df21de585d0d28" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/kathleen.santana.7?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/13096325_1018317951585695_4734072014451470227_n.jpg?oh=12b676b4c093ecf65a02f81435d2d7b8&oe=57ABB1BB&__gda__=1470067212_686a4db04e33da1408c41f458df1ae93" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
                     </div>
 
                     <div>
-                        <a href="https://www.facebook.com/JulioCezarPaiva?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/11903809_877068965721206_7367796122195827017_n.jpg?oh=f8c3c2a9b44402b99b3baa978a3b57b0&oe=579D39D6" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/profile.php?id=100009495806374&fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpl1/v/t1.0-9/12795318_1573383999654778_9007997716137530087_n.jpg?oh=217de1d7cc33dec49e854dd26f1e1619&oe=57AB746E&__gda__=1470884042_955582918084664806ba5eb263876de2" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/pkleiz?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10365980_1125836307441210_7311125100673276453_n.jpg?oh=a5f522b44e45697e6664134c50e60d39&oe=57E1272B&__gda__=1474479260_7fc7904002f8431fe8abbc5bd00ffaf2" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/daniel.c.assumpcao?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/931431_363058330467592_1662421732_n.jpg?oh=41e5558f4f4611ee3ce9cbe58476998a&oe=57DF0E74&__gda__=1474195261_c99ba962f9a0bf173ed0afda8e0881dc" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/rafael.estephanio?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/11898596_876725949081058_6772186792550706812_n.jpg?oh=7aaa4eef07f4020e0700be8f6e1dee6b&oe=57E6D470" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/JulioCezarPaiva?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/11903809_877068965721206_7367796122195827017_n.jpg?oh=f8c3c2a9b44402b99b3baa978a3b57b0&oe=579D39D6" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100009495806374&fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpl1/v/t1.0-9/12795318_1573383999654778_9007997716137530087_n.jpg?oh=217de1d7cc33dec49e854dd26f1e1619&oe=57AB746E&__gda__=1470884042_955582918084664806ba5eb263876de2" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/pkleiz?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10365980_1125836307441210_7311125100673276453_n.jpg?oh=a5f522b44e45697e6664134c50e60d39&oe=57E1272B&__gda__=1474479260_7fc7904002f8431fe8abbc5bd00ffaf2" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/daniel.c.assumpcao?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/931431_363058330467592_1662421732_n.jpg?oh=41e5558f4f4611ee3ce9cbe58476998a&oe=57DF0E74&__gda__=1474195261_c99ba962f9a0bf173ed0afda8e0881dc" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/rafael.estephanio?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/11898596_876725949081058_6772186792550706812_n.jpg?oh=7aaa4eef07f4020e0700be8f6e1dee6b&oe=57E6D470" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
                     </div>
 
                     <div>
-                        <a href="https://www.facebook.com/pedro.moya.58152?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/62625_160918457446807_1656037471_n.jpg?oh=aae89528178a89eb9589217b507646cf&oe=57E440CC&__gda__=1474344224_a519d14bfab4b9aedf5bb51804f5d367" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/thais.luca?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/10150664_684007701641011_4441404033549242132_n.jpg?oh=e1fb7372b468a85e88379601d6a79b4d&oe=57B03405" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/arthur.goncalves.182?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12341295_1206709392690598_3384992485973104472_n.jpg?oh=06b79430167014b171b406b2e43d9e90&oe=57A4AC39" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/raffael.siqueira9?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/1173781_968592643216736_7650204056454967445_n.jpg?oh=ee489e11f11c72d6ab43d76fbc0f052f&oe=57E7EB1F" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
-                        <a href="https://www.facebook.com/jvitordeoliveira96/friends?source_ref=pb_friends_tl"><img  class="rotate img-circle" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12715492_952713011490715_5468150458343065722_n.jpg?oh=5f9554a6cbf80b80153b8a77513ae140&oe=57E15E1E&__gda__=1471241111_36d3fd2226521674ddd8261b900f4692" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/pedro.moya.58152?fref=ts"><img  class="rotate img-circle" src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/62625_160918457446807_1656037471_n.jpg?oh=aae89528178a89eb9589217b507646cf&oe=57E440CC&__gda__=1474344224_a519d14bfab4b9aedf5bb51804f5d367" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/thais.luca?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/10150664_684007701641011_4441404033549242132_n.jpg?oh=e1fb7372b468a85e88379601d6a79b4d&oe=57B03405" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/arthur.goncalves.182?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/12341295_1206709392690598_3384992485973104472_n.jpg?oh=06b79430167014b171b406b2e43d9e90&oe=57A4AC39" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/raffael.siqueira9?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/1173781_968592643216736_7650204056454967445_n.jpg?oh=ee489e11f11c72d6ab43d76fbc0f052f&oe=57E7EB1F" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
+                        <a target="_blank" href="https://www.facebook.com/jvitordeoliveira96/friends?source_ref=pb_friends_tl"><img  class="rotate img-circle" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12715492_952713011490715_5468150458343065722_n.jpg?oh=5f9554a6cbf80b80153b8a77513ae140&oe=57E15E1E&__gda__=1471241111_36d3fd2226521674ddd8261b900f4692" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
                     </div>
                 </li>
             </div>
