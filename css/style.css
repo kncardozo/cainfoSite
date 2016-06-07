@@ -4768,8 +4768,37 @@ footer p {
 		address{margin-top:80px;}
 		.address{text-align:center}
 		.footer-banner{display:none}
-		
-		
-		
-		
 	}
+
+.navbar-brand > img {
+    margin-top: -20px;
+}
+
+body > header > nav > div > div.collapse.navbar-collapse.navbar-right.navbar-ex1-collapse > ul > li {
+  padding-top: 1%;
+}
+
+.navbar-default {
+  box-shadow: 0 3px 15px #aaaaaa;
+}
+
+.content-section-c {
+    background-color: #0092E8;
+    padding: 90px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.content-section-a {
+    background-color: #002042;
+    color: #cccccc;
+}
+
+#ondeestamos > div:nth-child(1) > address > p > a{
+  color: white;
+}
+
+.shadow-text {
+    text-shadow: 
+      0px 1px 3px rgba(0,0,0,0.4);
+}
