@@ -4779,21 +4779,25 @@ body > header > nav > div > div.collapse.navbar-collapse.navbar-right.navbar-ex1
 }
 
 .navbar-default {
-  box-shadow: 0 3px 15px #aaaaaa;
+  box-shadow: 0 2px 10px rgba(170, 170, 170, 0.53);
+  
 }
 
 .content-section-c {
-    background-color: #0092E8;
-    padding: 90px 0;
+    background-color: #0092E8;    
     text-align: center;
     color: #ffffff;
+	padding: 60px 0;
 }
 
 .content-section-a {
     background-color: #002042;
     color: #cccccc;
+	padding: 50px 0;
 }
-
+.content-section-b {
+	padding: 60px 0;
+}
 #ondeestamos > div:nth-child(1) > address > p > a{
   color: white;
 }
