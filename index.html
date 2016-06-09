@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CAInfo</title>
-    
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
-<body >
+<body>
 
     <header>
 		<nav class="navbar navbar-default navbar-fixed-top">
@@ -34,18 +35,17 @@
 				</div>
 				<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-							<li class=" "><a href="#quemsomos">O que é?</a></li>
-							<li class=" "><a href="#diretorias">Diretorias</a></li>
-							<li class=""><a href="#infoprovas">InfoProvas</a></li>
-							<li class=""><a href="#produtos">Produtos</a></li>
-							<li class=""><a href="#social">Mídia Social</a></li>		
-							<li class="menuItem"><a href="#ondeestamos">Onde Estamos</a></li>
-					</ul>			
+							<li class="page-scroll"><a href="#quemsomos">O que é?</a></li>
+							<li class="page-scroll"><a href="#diretorias">Diretorias</a></li>
+							<li class="page-scroll"><a href="#infoprovas">InfoProvas</a></li>
+							<li class="page-scroll"><a href="#produtos">Produtos</a></li>
+							<li class="page-scroll"><a href="#social">Mídia Social</a></li>
+							<li class="page-scroll menuItem"><a href="#ondeestamos">Onde Estamos</a></li>
+					</ul>
 				</div>
 			</div>
 		</nav>
     </header>
-	
     <!-- quem somos -->
     <div class="content-section-b" id="quemsomos">
         <div class="container">
@@ -57,7 +57,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-md-8">
                 <div class="container">
                     <div class="col-md-6 text-center">
@@ -121,18 +120,17 @@
             </div>
         </div>
     </div>
-
     <!-- infoprovas -->
     <div class="content-section-b"  id="infoprovas">
         <div class="container text-center">
             <div class="container">
                 <h2>Portal InfoPovas</h2>
                 <p class="lead">Suas provas online.</p>
-                <div class="col-md-6">
+                <div class="col-md-offset-2 col-md-3 col-sm-6" id="check">
                     <img src="img/icon/retina.svg">
                 </div>
                 <div class="col-md-6">
-                    <p class="lead">O InfoProvas é um repositório colaborativo de provas do curso de Ciência da Computação.
+                    <p class="lead" id="desc">O InfoProvas é um repositório colaborativo de provas do curso de Ciência da Computação.
                         <br>Nele você encontra as provas das disciplinas que você precisa, na hora em que precisa.</p>
                 </div>
                 <a target="_blank" href="http://cainfo.dcc.ufrj.br/infoprovas/" class="btn bnt-embossed bnt-primary" role="button">Acesse agora</a>
@@ -188,12 +186,12 @@
                     <li><a target="_blank" href="https://www.facebook.com/cainfoufrj/" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Página do Facebook</span></a></li>
 					<li><a target="_blank" href="https://docs.google.com/spreadsheets/d/12LYjm63IHLvGDPNBYBB8hl03G1tDlrWj--fKWTbKajo/edit?usp=sharing" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Calendário de Eventos</span></a></li>
 					<li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1TJZIMdlI0kNGUK7NTL7lLBAZVitmikotWicYhZTNYcg/edit?usp=sharing" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Planilha Financeira</span></a></li>
-					<li><a target="_blank" href="http://cainfo.dcc.ufrj.br/estatuto.html" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Estatuto</span></a></li>                    
-                </ul>                    
+					<li><a target="_blank" href="http://cainfo.dcc.ufrj.br/estatuto.html" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Estatuto</span></a></li>
+                </ul>
                 </div>
             </div>
             <div class="container text-center">
-                
+
             </div>
         </div>
     </div>
@@ -207,12 +205,12 @@
             <div class="col-md-6">
                 <address>
                     <h3>Onde estamos?</h3>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.5108479723035!2d-43.23496868503527!3d-22.857579985036924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99793876220c97%3A0x6f89bcaa9e5970f4!2sCentro+Acad%C3%AAmico+da+Inform%C3%A1tica+-+CAInfo+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1465406110061" width="250" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.5108479723035!2d-43.23496868503527!3d-22.857579985036924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99793876220c97%3A0x6f89bcaa9e5970f4!2sCentro+Acad%C3%AAmico+da+Inform%C3%A1tica+-+CAInfo+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1465406110061" width="90%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
                 </address>
             </div>
             <div class="col-md-6">
-                <h3>Siga nossos diretores</h3>
+                <h3>Nossa equipe</h3>
                 <li class="social">
                     <div>
                         <a target="_blank" href="https://www.facebook.com/CamilaCF2112?fref=ts"><img  class="rotate img-circle" src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/13173774_1206240476055590_409130041440299818_n.jpg?oh=cb8b99357c004ca5d3e05bc236e342e2&oe=57A43FDF" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
@@ -238,6 +236,7 @@
                         <a target="_blank" href="https://www.facebook.com/jvitordeoliveira96/friends?source_ref=pb_friends_tl"><img  class="rotate img-circle" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12715492_952713011490715_5468150458343065722_n.jpg?oh=5f9554a6cbf80b80153b8a77513ae140&oe=57E15E1E&__gda__=1471241111_36d3fd2226521674ddd8261b900f4692" alt="Generic placeholder image" style="width: 50px; height: 50px;"></a>
                     </div>
                 </li>
+                <p id="email">cainfo@dcc.ufrj.br</p>
             </div>
         </div>
     </div>
@@ -245,7 +244,9 @@
     <footer class="text-center">
         <p class="lead3">Desenvolvido por CAInfo. Todos os direitos reservados.</p>
     </footer>
-	<script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/userconfigs.js"></script>
+
 </body>
 </html>
