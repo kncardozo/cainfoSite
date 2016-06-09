@@ -160,9 +160,9 @@ filter: alpha(opacity=95) !important;
 }
 
 .mybutton_cyano:hover{
-	border: 1px solid #4A90BE;
 	color: #4A90BE !important;
 	background: rgba(204, 204, 204, 0);
+
 }
 
 .button_down img {
