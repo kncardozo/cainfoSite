@@ -4773,6 +4773,7 @@ body > header > nav > div > div.collapse.navbar-collapse.navbar-right.navbar-ex1
 }
 
 .navbar-default {
+  position: inherit;
   box-shadow: 0 2px 10px rgba(170, 170, 170, 0.53);
   
 }
